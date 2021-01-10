@@ -4,7 +4,7 @@ API Laravel para envio de arquivos.
 
 ## Configuração
 
-Para executar o projeto é necessário realizar a instalação de um comum de um projeto existente Laravel, seguindo os passos abaixo:
+Para executar o projeto é necessário realizar a instalação de um projeto existente Laravel, seguindo os passos abaixo:
 
 1. Acesse o diretório do projeto e realize a instalação das dependências do composer:
 
@@ -20,7 +20,7 @@ Para executar o projeto é necessário realizar a instalação de um comum de um
 	
 	    php artisan key:generate
 	
-4. Crie o link simbólico para a pasta onde ficaram salvas os arquivos:
+4. Crie o link simbólico para a pasta onde ficarão salvos os arquivos:
 
 	    php artisan storage:link
 	
