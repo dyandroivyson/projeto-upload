@@ -84,6 +84,7 @@ class ArquivoController extends Controller
 
         $arquivo->userCadastro;
         $arquivo->users;
+        $arquivo->files;
 
         return response()->json([
             'arquivo' => $arquivo

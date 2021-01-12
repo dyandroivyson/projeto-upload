@@ -23,4 +23,9 @@ class Arquivo extends Model
     {
         return $this->hasOne(User::class, 'id', 'user_id');
     }
+
+    public function files()
+    {
+        return $this->hasMany(ArquivoFile::class, 'arquivo_id', 'arquivo_id');
+    }
 }
